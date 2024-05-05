@@ -1,0 +1,8 @@
+# Insert "Great Literacy Characters" above the first line
+1i\
+Great Literacy Characters
+# Append "Happily ever after. The end" at the end of the file
+$ a\
+Happily ever after. The end
+# Add "+1" before the phone numbers and print the output
+s/(:\s*)([0-9]{3}-[0-9]{3}-[0-9]{4})/\11+\2/gp
